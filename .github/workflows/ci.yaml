@@ -217,7 +217,6 @@ jobs:
       - name: Run cargo clippy
         run: cargo clippy --workspace --tests --benches --examples -- -D warnings
 
-
   check-wasm32:
     name: Check WASM32
     runs-on: ubuntu-latest
